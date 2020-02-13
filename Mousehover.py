@@ -4,7 +4,7 @@ from selenium.webdriver import ActionChains
 
 try:
     s = 11
-    driver = webdriver.Chrome(executable_path="D:\\Downloaded\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="/Users/saiprasadecho/Desktop/Required_files/chromedriver")
     driver.get("https://opensource-demo.orangehrmlive.com/")
 
     driver.find_element_by_xpath("//input[@id='txtUsername']").send_keys("Admin")
