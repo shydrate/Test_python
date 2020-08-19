@@ -17,7 +17,7 @@ try:
 
     action = ActionChains(driver)
     action.move_to_element(admin).move_to_element(usermanagement).move_to_element(users).click().perform()
-    #driver.close()
+    driver.close()
     driver.quit()
 except ActionChains:
     print('ActionChains error')
